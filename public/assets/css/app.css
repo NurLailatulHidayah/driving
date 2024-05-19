@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.urbanist-bold {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.urbanist {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.urbanist-semibol {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.primary-bg {
+    background-color: #81D742;
+}
+
+.primary-txt {
+    color: #81D742;
+}
+
+.heroSection {
+    background-image: url('/assets/images/background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#panduan {
+    background-image: url('/assets/images/bg-section-panduan.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#faq {
+    background-image: url('/assets/images/bg-section-faq.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#statusTiket {
+    background-image: url('/assets/images/bg-section-tiket.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.dropdown-button {
+    background-color: #81D742;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.cek-tiket {
+    background-color: #81D742;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#heroImageContent {
+    margin-top: 20px;
+}
+
+.no-panduan {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    transform: translate(-90%, -50%);
+}
+
+.accordion-button .show {
+    background-color: #81D742; /* Ganti dengan warna yang Anda inginkan */
+}
+
+.sosial-media {
+    background-color: #2B3647;
+    border-radius: 5px;
+    font-size: 0.75;
+}
+
+footer {
+    background-color: #1A2331;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 150px 0;
+}
+
+.btn-auth {
+    background-color: #81D742;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn-auth:hover {
+    background-color: #53892a;
+}
+
+.auth {
+    background-image: url("/assets/images/auth-background.png");
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 767px) {
+    /* #heroImageContent {
+        margin-top: 150px;
+    } */
+    #statusTiket {
+        position: relative;
+    }
+
+    #image-status {
+        position: absolute;
+        bottom: 0;
+    }
+
+    #statusTiket {
+        height: 75vh;
+    }
+}
+
+/* Tablet (768px keatas) Bootstrap Breakpoints */
+@media (min-width: 768px) {
+    #heroImageContent {
+        margin-top: 3rem;
+    }
+
+    .auth {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+/* Dekstop (992px keatas) Bootstrap Breakpoints */
+@media (min-width: 992px) {
+    #heroImageContent {
+        margin-top: -8.125rem;
+    }
+}
+
+.section {
+    width: 1920px;
+    height: 790px;
+}
+
+.section .overlap-group {
+    position: relative;
+    height: 790px;
+}
+
+.section .img-wrapper {
+    position: absolute;
+    width: 1920px;
+    height: 790px;
+    top: 0;
+    left: 0;
+}
+
+.section .img {
+    position: absolute;
+    width: 193px;
+    height: 34px;
+    top: 204;
+    left: 315px;
+}
+
+.label {
+    width: 539px;
+    height: 46px;
+}
+
+.label .text-wrapper {
+    position: fixed;
+    width: 539px;
+    height: 46px;
+    top: 0;
+    left: 0;
+    font-family: "Urbanist-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #233050;
+    font-size: 38.4px;
+    letter-spacing: -0.32px;
+    line-height: 52px;
+    white-space: nowrap;
+}
+
+.button-feedback{
+    background-color: #81D742;
+    background-position: center;
+    color: white;
+    border: none;
+    width: 630px;
+    height: 50px;
+    margin-top: 20px;
+ }
+
+ #pesan::placeholder {
+    color: gray; 
+    font-style: italic;
+    position: absolute;
+}
